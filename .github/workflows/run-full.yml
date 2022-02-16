@@ -33,6 +33,7 @@ jobs:
         inv test-modified-solutions --input-id ${{ matrix.pack }}
   retag:
     runs-on: ubuntu-latest
+    if: ${{ always() }}
     needs: [main]
     steps:
     - uses: actions/checkout@v2
