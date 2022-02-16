@@ -24,3 +24,4 @@ if __name__ == "__main__":
                 min_dist = distance
                 closest = row[fkeys].to_dict()
         out.append(closest)
+    Path("output.json").write_text(json.dumps(out))
