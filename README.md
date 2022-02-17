@@ -23,12 +23,19 @@
   </thead>
   <tbody>
     <tr>
-      <th>lili_basic_solution</th>
+      <th rowspan="2" valign="top">lili_basic_solution</th>
       <th>07a3e46</th>
       <td>9.1184</td>
-      <td>296.354</td>
+      <td>296.3540</td>
       <td>717.3271</td>
       <td>1022.7994</td>
+    </tr>
+    <tr>
+      <th>22adf02</th>
+      <td>10.7591</td>
+      <td>340.7605</td>
+      <td>729.5224</td>
+      <td>1081.0420</td>
     </tr>
   </tbody>
 </table>
