@@ -4,9 +4,11 @@
 
 After forking this repo and cloning your own fork, run these commands in the terminal:
 
-`cd <path-to-folder>2022-pool-challenge-v1`
-`pip install -r requirements.txt`
-`inv get-test-pack`
+```
+>> cd <path-to-folder>2022-pool-challenge-v1
+>> pip install -r requirements.txt
+>> inv get-test-pack
+```
 
 Then open a python environment in the same folder and unzip `pack.zip`:
 
