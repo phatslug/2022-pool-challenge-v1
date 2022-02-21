@@ -2,134 +2,17 @@
 
 ## Successful Solutions
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>input_id</th>
-      <th>S-10</th>
-      <th>L-10</th>
-      <th>S-1000</th>
-      <th>L-500</th>
-      <th>Total time</th>
-    </tr>
-    <tr>
-      <th>name</th>
-      <th>commit</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="4" valign="top">sebi_basic_solution</th>
-      <th>fe517a0</th>
-      <td>1.6001</td>
-      <td>2.3895</td>
-      <td>3.5672</td>
-      <td>26.3629</td>
-      <td>33.9196</td>
-    </tr>
-    <tr>
-      <th>c1e2c40</th>
-      <td>2.2242</td>
-      <td>12.7356</td>
-      <td>22.6535</td>
-      <td>410.8672</td>
-      <td>448.4805</td>
-    </tr>
-    <tr>
-      <th>51edc94</th>
-      <td>2.3862</td>
-      <td>11.8903</td>
-      <td>25.2112</td>
-      <td>486.1680</td>
-      <td>525.6556</td>
-    </tr>
-    <tr>
-      <th>3371540</th>
-      <td>0.7508</td>
-      <td>11.9847</td>
-      <td>27.2496</td>
-      <td>630.4121</td>
-      <td>670.3973</td>
-    </tr>
-  </tbody>
-</table>
+| name                | v                      |   S-10 |    L-10 |   S-1000 |    L-500 |   Total time |
+|:--------------------|:-----------------------|-------:|--------:|---------:|---------:|-------------:|
+| sebi_basic_solution | [v3](./commit/fe517a0) | 1.6001 |  2.3895 |   3.5672 |  26.3629 |      33.9196 |
+| sebi_basic_solution | [v5](./commit/c1e2c40) | 2.2242 | 12.7356 |  22.6535 | 410.867  |     448.481  |
+| sebi_basic_solution | [v4](./commit/51edc94) | 2.3862 | 11.8903 |  25.2112 | 486.168  |     525.656  |
+| sebi_basic_solution | [v2](./commit/3371540) | 0.7508 | 11.9847 |  27.2496 | 630.412  |     670.397  |
 
 ## Near Misses
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th colspan="4" halign="left">duration</th>
-      <th colspan="4" halign="left">is_success</th>
-    </tr>
-    <tr>
-      <th></th>
-      <th>input_id</th>
-      <th>L-10</th>
-      <th>L-500</th>
-      <th>S-10</th>
-      <th>S-1000</th>
-      <th>L-10</th>
-      <th>L-500</th>
-      <th>S-10</th>
-      <th>S-1000</th>
-    </tr>
-    <tr>
-      <th>name</th>
-      <th>commit</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="2" valign="top">lili_basic_solution</th>
-      <th>07a3e46</th>
-      <td>296.354021</td>
-      <td>NaN</td>
-      <td>9.118360</td>
-      <td>717.327054</td>
-      <td>1.0</td>
-      <td>NaN</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>22adf02</th>
-      <td>340.760536</td>
-      <td>NaN</td>
-      <td>10.759106</td>
-      <td>729.522386</td>
-      <td>1.0</td>
-      <td>NaN</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>sebi_basic_solution</th>
-      <th>eaca833</th>
-      <td>24.519245</td>
-      <td>NaN</td>
-      <td>1.091898</td>
-      <td>41.596725</td>
-      <td>1.0</td>
-      <td>NaN</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table>
+| name                | v                      |     L-10 |   L-500 |     S-10 |   S-1000 |
+|:--------------------|:-----------------------|---------:|--------:|---------:|---------:|
+| lili_basic_solution | [v1](./commit/07a3e46) | 296.354  |     nan |  9.11836 | 717.327  |
+| lili_basic_solution | [v2](./commit/22adf02) | 340.761  |     nan | 10.7591  | 729.522  |
+| sebi_basic_solution | [v1](./commit/eaca833) |  24.5192 |     nan |  1.0919  |  41.5967 |
