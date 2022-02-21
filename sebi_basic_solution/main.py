@@ -7,12 +7,12 @@ import numba
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
 
-@numba.jit(nopython=True, nogil=True, parallel=True)
+@numba.jit(nopython=True, parallel=True)
 def get_distance(data_pos: np.array, query_pos: np.array):
     return np.square(data_pos - query_pos).sum()
 
 
-@numba.jit(nopython=True, nogil=True, parallel=True)
+@numba.jit(nopython=True, parallel=True)
 def find_closest(data_array: np.array, query_pos: np.array):
     distance_vec = []
     for data_pos in data_array:
