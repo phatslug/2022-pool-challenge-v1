@@ -25,13 +25,21 @@
   </thead>
   <tbody>
     <tr>
-      <th rowspan="3" valign="top">sebi_basic_solution</th>
+      <th rowspan="4" valign="top">sebi_basic_solution</th>
       <th>fe517a0</th>
       <td>1.6001</td>
       <td>2.3895</td>
       <td>3.5672</td>
       <td>26.3629</td>
       <td>33.9196</td>
+    </tr>
+    <tr>
+      <th>c1e2c40</th>
+      <td>2.2242</td>
+      <td>12.7356</td>
+      <td>22.6535</td>
+      <td>410.8672</td>
+      <td>448.4805</td>
     </tr>
     <tr>
       <th>51edc94</th>
