@@ -23,6 +23,14 @@
   </thead>
   <tbody>
     <tr>
+      <th>sebi_basic_solution</th>
+      <th>eaca833</th>
+      <td>1.0919</td>
+      <td>24.5192</td>
+      <td>41.5967</td>
+      <td>67.2079</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">lili_basic_solution</th>
       <th>07a3e46</th>
       <td>9.1184</td>
