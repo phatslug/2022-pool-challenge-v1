@@ -2,18 +2,20 @@ from pathlib import Path
 import json
 import pandas as pd
 import numpy as np
+import numba
 
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
+@numba.jit(nopython=True)
+def get_distance(data_pos: np.array, query_pos: np.array):
+    return np.square(data_pos - query_pos).sum()
 
-def get_distance(data_array: np.array, query_array: np.array):
-    return np.square(data_array - query_array).sum()
-
-
-def find_closest(data_array, query_array):
-    return np.array(
-        list(map(lambda vec: get_distance(vec, query_array), data_array))
-    ).argmin()
+@numba.jit(nopython=True)
+def find_closest(data_array: np.array, query_pos: np.array):
+    distance_vec = []
+    for data_pos in data_array:
+        distance_vec.append(get_distance(data_pos, query_pos))
+    return np.array(distance_vec).argmin()
 
 
 if __name__ == "__main__":
