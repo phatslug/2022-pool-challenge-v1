@@ -4,8 +4,6 @@ import json
 import pickle
 from pathlib import Path
 
-from sklearn.cluster import k_means
-
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
 if __name__ == "__main__":
