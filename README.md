@@ -22,3 +22,4 @@
 | sebi_tree_solution  | [v4](../../commit/b4221d7) | nan        | nan       | nan        |   0.839791 |       nan |
 | sebi_tree_solution  | [v5](../../commit/bba55ef) |   1.06576  | nan       |   0.914325 |   0.924512 |       nan |
 | sebi_tree_solution  | [v6](../../commit/6fb390f) |   0.898903 |   1.06498 |   0.885609 |   0.986124 |       nan |
+| sebi_tree_solution  | [v7](../../commit/1315fff) |   1.10031  |   1.08386 |   0.784823 |   0.815491 |       nan |
