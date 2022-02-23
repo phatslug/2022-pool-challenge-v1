@@ -16,9 +16,9 @@ if __name__ == "__main__":
         tree = pickle.load(file)
 
     ind = [
-        tree.query(query.reshape(1, -1), return_distance=False, dualtree=True)[0][
-            0
-        ]
+        tree.query_radius(
+            query.reshape(1, -1), r=10, return_distance=True, sort_results=True
+        )[0][0][0]
         for query in input_locations
     ]
 
