@@ -18,3 +18,4 @@
 | sebi_basic_solution | [v5](../../commit/c1e2c40) |  12.7356   | 410.867  |  2.2242   |  22.6535   |       nan |
 | sebi_tree_solution  | [v1](../../commit/c6e88f0) |   0.967329 | nan      |  0.865493 |   0.885463 |       nan |
 | sebi_tree_solution  | [v2](../../commit/987dfec) |   0.838131 | nan      |  0.951378 |   1.39613  |       nan |
+| sebi_tree_solution  | [v3](../../commit/e966f24) |   0.841911 | nan      |  0.914166 |   0.940104 |       nan |
