@@ -15,9 +15,12 @@ if __name__ == "__main__":
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
-    dist, ind = tree.query(input_locations, k = 1000)
+    ind = [
+        tree.query(query.reshape(1, -1), return_distance=False, breadth_first=True)[0][
+            0
+        ]
+        for query in input_locations
+    ]
 
-    results = data.iloc[[x[0] for x in ind], :][["msec", "subject", "trial"]].to_dict(
-        "records"
-    )
+    results = data.iloc[ind, :][["msec", "subject", "trial"]].to_dict("records")
     Path("output.json").write_text(json.dumps(results))

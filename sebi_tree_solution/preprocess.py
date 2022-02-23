@@ -8,7 +8,9 @@ data_subset = pd.read_csv("data.csv")[
 
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
-tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), metric="euclidean")
+tree = KDTree(
+    data_subset.loc[:, pos_cols].to_numpy(), metric="euclidean", leaf_size=400
+)
 
 data_subset.to_parquet("data_subset.parquet")
 
