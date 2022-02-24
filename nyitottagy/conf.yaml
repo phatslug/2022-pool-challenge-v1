@@ -1,0 +1,4 @@
+image-base: python:3.10
+setup-command: pip install -r requirments.txt
+etl-command: preprocess.py
+process-command: process.py
