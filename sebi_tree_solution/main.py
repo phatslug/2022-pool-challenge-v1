@@ -17,10 +17,15 @@ if __name__ == "__main__":
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
-    ind = [
-        tree.query(query.reshape(1, -1), return_distance=False)[0][0]
-        for query in input_locations
-    ]
+    dist, ind = tree.query(input_locations, k = 10)
 
-    results = data.iloc[ind, :][["msec", "subject", "trial"]].to_dict("records")
+    for input_i, d, i in zip(np.arange(len(input_locations)), dist, ind):
+        duplicated_d = len([x for x in d if x == d.min()])
+        if duplicated_d > 1:
+            print(f'Same distance at query: \n{input_i}\n')
+            print(f'Input: \n{input_locations[input_i]}\n')
+            print(f'Data: \n{data.iloc[i[:duplicated_d], :]}\n')
+            print(f'Distance: {d[:duplicated_d]}')
+
+    results = data.iloc[[q[0] for q in ind], :][["msec", "subject", "trial"]].to_dict("records")
     Path("output.json").write_text(json.dumps(results))
