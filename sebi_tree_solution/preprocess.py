@@ -6,7 +6,6 @@ data_subset = (
     pd.read_csv("data.csv")[lambda _df: _df["keycode"] == "p"]
     .drop_duplicates(subset=["msec", "subject", "trial"])
     .dropna()
-    .sort_values(['subject', 'trial', 'msec'])
     .reset_index()
 )
 
