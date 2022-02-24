@@ -3,9 +3,10 @@ from sklearn.neighbors import KDTree
 import pickle
 
 data_subset = (
-    pd.read_csv("data.csv")[lambda _df: _df["entity_id"] == 0]
+    pd.read_csv("data.csv")[lambda _df: _df["keycode"] == "p"]
     .drop_duplicates(subset=["msec", "subject", "trial"])
     .dropna()
+    .sort_values(['subject', 'trial', 'msec'])
     .reset_index()
 )
 
