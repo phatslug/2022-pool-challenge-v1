@@ -19,14 +19,6 @@ if __name__ == "__main__":
 
     dist, ind = tree.query(input_locations, k = 10)
 
-    for input_i, d, i in zip(np.arange(len(input_locations)), dist, ind):
-        duplicated_d = len([x for x in d if x == d.min()])
-        if duplicated_d > 1:
-            print(f'Same distance at query: \n{input_i}\n')
-            print(f'Input: \n{input_locations[input_i]}\n')
-            print(f'Data: \n{data.iloc[i[:duplicated_d], :]}\n')
-            print(f'Distance: {d[:duplicated_d]}')
-
     results_index = [min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()]) for d_vec, i_vec in zip(dist, ind)]
     results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
     Path("output.json").write_text(json.dumps(results))
