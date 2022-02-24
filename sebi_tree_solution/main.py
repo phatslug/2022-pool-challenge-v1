@@ -10,12 +10,17 @@ if __name__ == "__main__":
     data = pd.read_parquet("data_subset.parquet")
 
     input_locations = json.loads(Path("input.json").read_text())
-    input_locations = np.array([*map(lambda x: list(x.values()), input_locations)])
-
+    input_array = np.array(
+        [*map(lambda x: list(x.values()), input_locations)], dtype=np.float64
+    )
+    
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
-    ind = [tree.query(query.reshape(1, -1), return_distance=False)[0][0] for query in input_locations]
+    ind = [
+        tree.query(query.reshape(1, -1), return_distance=False)[0][0]
+        for query in input_locations
+    ]
 
     results = data.iloc[ind, :][["msec", "subject", "trial"]].to_dict("records")
     Path("output.json").write_text(json.dumps(results))
