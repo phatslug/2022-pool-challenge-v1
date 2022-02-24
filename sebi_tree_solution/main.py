@@ -17,7 +17,7 @@ if __name__ == "__main__":
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
-    dist, ind = tree.query(input_locations, k = 10)
+    dist, ind = tree.query(input_locations, k = 100)
 
     results_index = [min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()]) for d_vec, i_vec in zip(dist, ind)]
     results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
