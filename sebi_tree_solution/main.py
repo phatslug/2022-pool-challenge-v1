@@ -10,10 +10,10 @@ if __name__ == "__main__":
     data = pd.read_parquet("data_subset.parquet")
 
     input_locations = json.loads(Path("input.json").read_text())
-    input_array = np.array(
-        [*map(lambda x: list(x.values()), input_locations)], dtype=np.float64
+    input_locations = np.array(
+        [tuple(pos.values()) for pos in input_locations], dtype=np.float64
     )
-    
+
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
