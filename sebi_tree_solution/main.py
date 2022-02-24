@@ -27,5 +27,6 @@ if __name__ == "__main__":
             print(f'Data: \n{data.iloc[i[:duplicated_d], :]}\n')
             print(f'Distance: {d[:duplicated_d]}')
 
-    results = data.iloc[[q[0] for q in ind], :][["msec", "subject", "trial"]].to_dict("records")
+    results_index = [min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()]) for d_vec, i_vec in zip(dist, ind)]
+    results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
     Path("output.json").write_text(json.dumps(results))
