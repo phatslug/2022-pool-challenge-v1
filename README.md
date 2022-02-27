@@ -30,3 +30,4 @@
 | sebi_tree_solution  | [v7](../../commit/1315fff)  |   1.10031  |   1.08386  |   0.784823 |   0.815491 |       nan |
 | sebi_tree_solution  | [v8](../../commit/d1d2cbe)  |   1.13523  |   1.03075  |   0.784795 |   1.13577  |       nan |
 | sebi_tree_solution  | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 |       nan |
+| virgopowah          | [v1](../../commit/2dbc7e7)  |   0.703202 | nan        |   0.794111 |   0.628813 |       nan |
