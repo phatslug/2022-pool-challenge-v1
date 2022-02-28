@@ -11,7 +11,7 @@ data = data.loc[data["entity_id"] == 0].drop_duplicates().reset_index(drop = Tru
 data = data.loc[:,cols_1]
 
 for i in ["x_position", "y_position","z_position"]:
-    data[i] = data[i].astype(np.float16)
+    data[i] = data[i].astype(np.float32)
 for i in ["msec", "trial"]:
     data[i] = data[i].astype(np.int16)
 data["subject"] = data["subject"].astype("category")
