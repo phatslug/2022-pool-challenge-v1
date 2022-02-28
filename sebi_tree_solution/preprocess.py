@@ -53,6 +53,5 @@ if __name__ == "__main__":
     # uvicorn.run("preprocess:app", host="127.0.0.1", port=5000)
     proc = subprocess.Popen(
         ["uvicorn", "preprocess:app", "--host", "127.0.0.1", "--port", "5000"],
-        stdout=subprocess.PIPE,
-        stdin=subprocess.PIPE,
+        close_fds=True,
     )
