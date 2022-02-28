@@ -18,5 +18,5 @@ if __name__ == "__main__":
 
     shortest_index = [d.T[i].argmin() for i in range(len(d.T))]
 
-    result = data.iloc[shortest_index, [1, -2, -1]].to_dict("records")
+    result = data.iloc[shortest_index, [0, -2, -1]].to_dict("records")
     Path("output.json").write_text(json.dumps(result))
