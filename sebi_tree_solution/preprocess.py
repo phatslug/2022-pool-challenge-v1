@@ -14,7 +14,6 @@ result_data = (
     .drop_duplicates(subset=["msec", "subject", "trial"])
     .dropna()
     .reset_index()
-    .sample(1_500_000, replace=True)
 )
 
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
