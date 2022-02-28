@@ -16,6 +16,7 @@
 | lili_lessbasic      | [v2](../../commit/dbd5cee)  |   8.83185  | 373.891    |   0.601737 |  18.5616   |       nan |
 | nyitottagy          | [v1](../../commit/265c45e)  |   0.676376 |   2.67771  |   0.478823 |   0.515898 |       nan |
 | nyitottagy          | [v2](../../commit/788323f)  |   0.667397 | nan        |   0.379194 |   0.452332 |       nan |
+| nyitottagy          | [v3](../../commit/c8ad45c)  |   0.603791 |   2.36064  |   0.519632 |   0.448809 |       nan |
 | nyitottagy_lopas    | [v1](../../commit/0b6a733)  |   0.946693 |   2.78325  |   0.807631 |   1.02     |       nan |
 | sebi_basic_solution | [v1](../../commit/eaca833)  |  24.5192   | nan        |   1.0919   |  41.5967   |       nan |
 | sebi_basic_solution | [v2](../../commit/3371540)  |  11.9847   | 630.412    |   0.750844 |  27.2496   |       nan |
