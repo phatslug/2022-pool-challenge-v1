@@ -2,3 +2,4 @@ pandas
 sklearn
 fastapi
 uvicorn[standard]
+requests
