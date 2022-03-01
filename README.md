@@ -14,6 +14,7 @@
 
 | name                    | v                           |       L-10 |      L-500 |       S-10 |     S-1000 |   XL-5000 |
 |:------------------------|:----------------------------|-----------:|-----------:|-----------:|-----------:|----------:|
+| final_fusztracio        | [v10](../../commit/2aaed3f) |   0.601075 |   1.19214  |   0.449466 |   1.17816  | nan       |
 | final_fusztracio        | [v1](../../commit/0a83a7f)  | nan        |   0.943892 |   0.579555 |   1.4439   | nan       |
 | final_fusztracio        | [v2](../../commit/688b5bc)  | nan        |   1.16048  | nan        | nan        | nan       |
 | final_fusztracio        | [v2](../../commit/b0cfedc)  |   0.597709 | nan        | nan        | nan        | nan       |
