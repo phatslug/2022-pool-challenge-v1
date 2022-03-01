@@ -11,6 +11,8 @@ proc = subprocess.Popen(
     # stderr=nothing
 )
 
+Path('process_data.txt').write_text(str(proc.pid))
+
 for trial in range(10):
     try:
         time.sleep(5)
@@ -19,3 +21,5 @@ for trial in range(10):
         break
     except:
         print(f"Server is not running at trial {trial}")
+
+

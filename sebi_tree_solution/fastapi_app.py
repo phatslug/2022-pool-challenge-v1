@@ -7,6 +7,8 @@ import numpy as np
 import uvicorn
 import json
 from pathlib import Path
+import os
+import signal
 
 app = FastAPI()
 
@@ -60,5 +62,9 @@ def get_index():
 def szar():
     return 'Élek'
 
+@app.get('/kill_me')
+def kill_proc():
+    os.kill(int(Path('process_data.txt').read_text()), signal.SIGTERM) #or signal.SIGKILL 
+
 if __name__ == "__main__":
-    uvicorn.run("fastapi_app:app", port = 8080, proxy_headers = True, debug = True)
+    uvicorn.run("fastapi_app:app", port = 8099, proxy_headers = True, debug = True)
