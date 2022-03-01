@@ -32,7 +32,6 @@ In the yaml file, on the top level, there should be 4 keys with the following va
 * `setup-command` (optional): Sets up the environment, where the other commands can run. (Example: `pip install -r requirements.txt`)
 * `etl-command` (optional): It runs assuming that a `data.csv` file containing the experimental data is present in the root of the solution. It can do anything with the data to prepare it for the process command. (Example: `python preprocess.py`)
 * `process-command` (**mandatory**): It runs assuming that an `inputs.json` file containing the input locations is present in the solution root. Your task is to make this command write out the answers to the queries found in the inputs into an `outputs.json` file in the root of the solution, as fast as possible. (Example: `python main.py`)
-* `cleanup-command` (optional): Runs after everything is done. (Example: `python cleanup.py`)
 
 Your solutions will be evaluated based on:
 * base speed
