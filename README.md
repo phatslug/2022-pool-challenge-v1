@@ -61,6 +61,7 @@
 | smk_0301_1420       | [v15](../../commit/a9a545f) |   1.04557  | nan        |   0.518456 |   1.06082  | nan       |
 | smk_0301_1420       | [v1](../../commit/a9a545f)  |   1.04557  | nan        |   0.518456 |   1.06082  | nan       |
 | smk_0301_1420       | [v2](../../commit/adc72be)  | nan        | nan        | nan        | nan        | nan       |
+| smk_0301_1420       | [v3](../../commit/e45d899)  | nan        | nan        | nan        | nan        | nan       |
 | smk_whenisgood      | [v1](../../commit/1791b69)  | nan        | nan        | nan        |   1.08504  | nan       |
 | smk_whenisgood      | [v2](../../commit/cdeae11)  | nan        | nan        |   0.989448 | nan        | nan       |
 | smk_whenisgood      | [v3](../../commit/292e28f)  |   0.891287 | nan        | nan        | nan        | nan       |
