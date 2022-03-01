@@ -39,6 +39,7 @@
 | sara_peti_solution    | [v1](../../commit/9ce26a5)  |  15.3465   | nan        |   0.972676 |  15.869    |       nan |
 | sara_peti_solution    | [v2](../../commit/93d98de)  |   0.822125 | nan        |   0.437308 |   2.76557  |       nan |
 | sara_peti_solution    | [v3](../../commit/fce0f39)  |   0.939527 | nan        |   0.501643 |   2.34768  |       nan |
+| sara_peti_solution    | [v4](../../commit/70ec1e6)  |   0.925305 | nan        |   0.475487 |   1.7185   |       nan |
 | sebi_basic_solution   | [v1](../../commit/eaca833)  |  24.5192   | nan        |   1.0919   |  41.5967   |       nan |
 | sebi_basic_solution   | [v2](../../commit/3371540)  |  11.9847   | 630.412    |   0.750844 |  27.2496   |       nan |
 | sebi_basic_solution   | [v3](../../commit/fe517a0)  |   2.38947  |  26.3629   |   1.60008  |   3.56721  |       nan |
