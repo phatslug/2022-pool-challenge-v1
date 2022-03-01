@@ -25,6 +25,7 @@
 | final_fusztracio        | [v7](../../commit/4698f48)  |   0.613963 |   1.07482  |   0.613203 |   0.981021 | nan       |
 | final_fusztracio        | [v7](../../commit/7477e96)  |   0.750854 | nan        | nan        | nan        | nan       |
 | final_fusztracio        | [v8](../../commit/c492538)  | nan        | nan        | nan        | nan        | nan       |
+| final_fusztracio        | [v9](../../commit/afe24f6)  | nan        | nan        | nan        | nan        | nan       |
 | kofi_mark_sebi_baseline | [v2](../../commit/f456ade)  | nan        | nan        | nan        |   1.00359  | nan       |
 | kofi_mark_sebi_baseline | [v3](../../commit/4698f48)  | nan        | nan        | nan        | nan        |   2.98413 |
 | kofi_mark_sebi_baseline | [v3](../../commit/4f45dc4)  | nan        | nan        | nan        |   0.975633 | nan       |
