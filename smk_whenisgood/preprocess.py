@@ -11,7 +11,7 @@ data_subset = (
 
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
-tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=1, metric = "euclidean")
+tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=1)
 
 data_subset.loc[:,["msec", "subject", "trial"]].to_parquet("data_subset.parquet")
 
