@@ -12,6 +12,6 @@ if __name__ == "__main__":
     eredmeny=[]
 
     for i in range(0,len(input_locations)):
-        dd, ii = tree.query(list(input_locations[i].values()),k=100)
-        eredmeny.append(df[["msec","subject","trial"]].iloc[ii[list(dd).index(dd.min())]].to_dict())
+        dd, ii = tree.query(list(input_locations[i].values()),k=200)
+        eredmeny.append(df[["msec","subject","trial"]].iloc[min(zip(dd,ii))[1]].to_dict())
     Path("output.json").write_text(json.dumps(eredmeny))
