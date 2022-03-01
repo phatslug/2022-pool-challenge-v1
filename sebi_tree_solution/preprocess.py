@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 import pandas as pd
 from sklearn.neighbors import KDTree
-import uvicorn
 from pydantic import BaseModel
 from typing import List
 import numpy as np
 import subprocess
+from pathlib import Path
 
 app = FastAPI()
 
@@ -39,7 +39,7 @@ def get_entity(t_index: int):
     return result_data.iloc[t_index, :][["msec", "subject", "trial"]].to_dict("records")
 
 
-@app.post("/neighbours")
+@app.post("/")
 def get_index(input_json: ItemList):
     dist, ind = kdtree.query(process_input(input_json.dict()["__root__"]), k=10)
     results_index = [
@@ -52,6 +52,7 @@ def get_index(input_json: ItemList):
 if __name__ == "__main__":
     # uvicorn.run("preprocess:app", host="127.0.0.1", port=5000)
     proc = subprocess.Popen(
-        ["uvicorn", "preprocess:app", "--host", "127.0.0.1", "--port", "5000"],
+        ["uvicorn", "preprocess:app"],
         close_fds=True,
+        cwd=Path.cwd()
     )

@@ -1,5 +1,5 @@
 pandas
 sklearn
 fastapi
-uvicorn[standard]
+uvicorn
 requests
