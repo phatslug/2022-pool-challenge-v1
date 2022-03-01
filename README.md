@@ -17,6 +17,7 @@
 | lili_basic_solution | [v2](../../commit/22adf02)  | 340.761    | nan        |  10.7591   | 729.522    | nan       |
 | lili_lessbasic      | [v1](../../commit/be983ae)  |   7.80133  | 346.656    |   0.567538 |  15.4641   | nan       |
 | lili_lessbasic      | [v2](../../commit/dbd5cee)  |   8.83185  | 373.891    |   0.601737 |  18.5616   | nan       |
+| lili_treeball       | [v1](../../commit/926c62b)  |   6.76831  | 315.664    |   0.5484   |  17.0279   | nan       |
 | nyitottagy          | [v10](../../commit/71f3fa1) |   0.811168 |   2.79286  |   0.446137 |   0.444939 | nan       |
 | nyitottagy          | [v11](../../commit/2d97273) |   0.788811 |   2.40572  |   0.538201 |   0.51477  | nan       |
 | nyitottagy          | [v12](../../commit/65d203d) |   0.894131 |   1.87265  |   0.490864 |   0.537133 | nan       |
