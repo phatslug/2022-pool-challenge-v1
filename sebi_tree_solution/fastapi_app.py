@@ -54,6 +54,7 @@ def get_index():
         for d_vec, i_vec in zip(dist, ind)
     ]
     write_results(get_entity(results_index))
+    print('Kész vok')
 
 @app.get('/szarosapi')
 def szar():
