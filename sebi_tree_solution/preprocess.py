@@ -54,5 +54,6 @@ if __name__ == "__main__":
     proc = subprocess.Popen(
         ["uvicorn", "preprocess:app"],
         close_fds=True,
-        cwd=Path.cwd()
+        cwd=Path.cwd(),
+        stdout=subprocess.DEVNULL,
     )
