@@ -19,8 +19,14 @@
 | lili_lessbasic      | [v2](../../commit/dbd5cee)  |   8.83185  | 373.891    |   0.601737 |  18.5616   | nan       |
 | nyitottagy          | [v10](../../commit/71f3fa1) |   0.811168 |   2.79286  |   0.446137 |   0.444939 | nan       |
 | nyitottagy          | [v11](../../commit/2d97273) |   0.788811 |   2.40572  |   0.538201 |   0.51477  | nan       |
+| nyitottagy          | [v12](../../commit/65d203d) |   0.894131 |   1.87265  |   0.490864 |   0.537133 | nan       |
+| nyitottagy          | [v13](../../commit/5c8bf09) | nan        | nan        | nan        |   0.491786 | nan       |
+| nyitottagy          | [v14](../../commit/94bbeed) | nan        | nan        |   0.395857 | nan        | nan       |
+| nyitottagy          | [v15](../../commit/a9a545f) | nan        |   5.88846  | nan        | nan        | nan       |
+| nyitottagy          | [v16](../../commit/92dfadb) |   0.827438 | nan        | nan        | nan        | nan       |
 | nyitottagy          | [v1](../../commit/265c45e)  |   0.676376 |   2.67771  |   0.478823 |   0.515898 | nan       |
 | nyitottagy          | [v1](../../commit/5b6ba66)  | nan        |   2.60356  |   0.487263 | nan        | nan       |
+| nyitottagy          | [v1](../../commit/a9a545f)  | nan        |   5.88846  | nan        | nan        | nan       |
 | nyitottagy          | [v2](../../commit/788323f)  |   0.667397 | nan        |   0.379194 |   0.452332 | nan       |
 | nyitottagy          | [v3](../../commit/292e28f)  | nan        |   2.65517  |   0.455418 |   0.506347 | nan       |
 | nyitottagy          | [v3](../../commit/c8ad45c)  |   0.603791 |   2.36064  |   0.519632 |   0.448809 | nan       |
@@ -52,6 +58,9 @@
 | sebi_tree_solution  | [v8](../../commit/d1d2cbe)  |   1.13523  |   1.03075  |   0.784795 |   1.13577  | nan       |
 | sebi_tree_solution  | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 | nan       |
 | smk_0301_1313       | [v1](../../commit/47857a0)  |   0.802152 | nan        |   0.895867 |   1.0126   | nan       |
+| smk_0301_1420       | [v15](../../commit/a9a545f) |   1.04557  | nan        |   0.518456 |   1.06082  | nan       |
+| smk_0301_1420       | [v1](../../commit/a9a545f)  |   1.04557  | nan        |   0.518456 |   1.06082  | nan       |
+| smk_0301_1420       | [v2](../../commit/adc72be)  | nan        | nan        | nan        | nan        | nan       |
 | smk_whenisgood      | [v1](../../commit/1791b69)  | nan        | nan        | nan        |   1.08504  | nan       |
 | smk_whenisgood      | [v2](../../commit/cdeae11)  | nan        | nan        |   0.989448 | nan        | nan       |
 | smk_whenisgood      | [v3](../../commit/292e28f)  |   0.891287 | nan        | nan        | nan        | nan       |
