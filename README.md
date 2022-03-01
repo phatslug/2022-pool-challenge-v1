@@ -25,6 +25,10 @@
 | final_fusztracio        | [v7](../../commit/7477e96)  |   0.750854 | nan        | nan        | nan        | nan       |
 | final_fusztracio        | [v8](../../commit/c492538)  | nan        | nan        | nan        | nan        | nan       |
 | final_fusztracio        | [v9](../../commit/afe24f6)  | nan        | nan        | nan        | nan        | nan       |
+| hobot_sara_balltree     | [v1](../../commit/fce0f39)  | nan        | nan        |   1.56295  | nan        | nan       |
+| hobot_sara_balltree     | [v2](../../commit/212e16d)  | nan        | nan        | nan        |   1.62359  | nan       |
+| hobot_sara_balltree     | [v3](../../commit/8c61b72)  |  18.9306   | nan        | nan        | nan        | nan       |
+| hobot_sara_balltree     | [v4](../../commit/8f81631)  | nan        | nan        | nan        | nan        | nan       |
 | kofi_mark_sebi_baseline | [v2](../../commit/f456ade)  | nan        | nan        | nan        |   1.00359  | nan       |
 | kofi_mark_sebi_baseline | [v3](../../commit/4f45dc4)  | nan        | nan        | nan        |   0.975633 | nan       |
 | kofi_mark_sebi_baseline | [v4](../../commit/7f5200c)  | nan        | nan        |   0.968297 | nan        | nan       |
@@ -57,6 +61,8 @@
 | nyitottagy_lopas        | [v2](../../commit/688b5bc)  |   1.11586  | nan        |   0.850581 |   0.790691 | nan       |
 | nyitottagy_lopas        | [v3](../../commit/3b87491)  | nan        |   1.02152  | nan        | nan        | nan       |
 | nyitottagy_lopas        | [v4](../../commit/93e223d)  |   1.20063  |   0.822439 |   0.958979 |   0.985607 | nan       |
+| sara_peti_solution      | [v10](../../commit/fce0f39) |   0.939527 | nan        | nan        |   2.34768  | nan       |
+| sara_peti_solution      | [v11](../../commit/fc26b4a) | nan        | nan        |   0.501643 | nan        | nan       |
 | sara_peti_solution      | [v1](../../commit/9ce26a5)  |  13.6942   | nan        |   0.749142 |  15.8852   | nan       |
 | sara_peti_solution      | [v2](../../commit/7b58782)  | nan        | nan        |   0.972676 | nan        | nan       |
 | sara_peti_solution      | [v3](../../commit/0fdef72)  | nan        | nan        | nan        |  15.869    | nan       |
