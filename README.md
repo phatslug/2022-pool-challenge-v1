@@ -49,6 +49,7 @@
 | sebi_tree_solution  | [v7](../../commit/1315fff)  |   1.10031  |   1.08386  |   0.784823 |   0.815491 | nan       |
 | sebi_tree_solution  | [v8](../../commit/d1d2cbe)  |   1.13523  |   1.03075  |   0.784795 |   1.13577  | nan       |
 | sebi_tree_solution  | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 | nan       |
+| smk_0301_1313       | [v1](../../commit/47857a0)  |   0.802152 | nan        |   0.895867 |   1.0126   | nan       |
 | smk_whenisgood      | [v1](../../commit/1791b69)  | nan        | nan        | nan        |   1.08504  | nan       |
 | smk_whenisgood      | [v2](../../commit/cdeae11)  | nan        | nan        |   0.989448 | nan        | nan       |
 | smk_whenisgood      | [v3](../../commit/292e28f)  |   0.891287 | nan        | nan        | nan        | nan       |
