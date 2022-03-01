@@ -8,7 +8,7 @@ if __name__ == "__main__":
     df = pd.read_pickle("df.pkl")
     input_locations = json.loads(Path("input.json").read_text())
 
-    tree = spatial.KDTree(df.loc[df["keycode"] == "p", ["x_position","y_position","z_position"]])
+    tree = spatial.KDTree(df.loc[df["keycode"] == "p", ["x_position","y_position","z_position"]],leafsize=5)
     eredmeny=[]
 
     for i in range(0,len(input_locations)):
