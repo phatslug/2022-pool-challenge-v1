@@ -12,8 +12,9 @@ proc = subprocess.Popen(
     stderr=open(os.devnull, 'w')
 )
 
-for trial in range(10):
+for trial in range(100):
     try:
+        time.sleep(5)
         requests.get('http://127.0.0.1:8000/szarosapi')
         time.sleep(5)
     except:
