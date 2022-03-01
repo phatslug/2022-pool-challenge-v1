@@ -5,6 +5,8 @@ from pydantic import BaseModel
 from typing import List
 import numpy as np
 import uvicorn
+import json
+from pathlib import Path
 
 app = FastAPI()
 
@@ -37,15 +39,21 @@ def process_input(input_json):
 def get_entity(t_index: int):
     return result_data.iloc[t_index, :][["msec", "subject", "trial"]].to_dict("records")
 
+def read_input() -> dict:
+    return json.loads(Path("input.json").read_text())
 
-@app.post("/")
-def get_index(input_json: ItemList):
-    dist, ind = kdtree.query(process_input(input_json.dict()["__root__"]), k=10)
+
+def write_results(results):
+    Path("output.json").write_text(json.dumps(results))
+
+@app.get("/")
+def get_index():
+    dist, ind = kdtree.query(process_input(read_input()), k=10)
     results_index = [
         min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()])
         for d_vec, i_vec in zip(dist, ind)
     ]
-    return get_entity(results_index)
+    write_results(get_entity(results_index))
 
 @app.get('/szarosapi')
 def szar():
