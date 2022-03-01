@@ -49,4 +49,4 @@ def get_index(input_json: ItemList):
 
 
 if __name__ == "__main__":
-    uvicorn.run("preprocess:app")
+    uvicorn.run("fastapi_app:app")
