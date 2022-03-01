@@ -4,12 +4,11 @@ import os
 import requests
 import time
 
+nothing = open(os.devnull, 'w')
 proc = subprocess.Popen(
     ["python", "fastapi_app.py"],
-    close_fds=True,
-    cwd=Path.cwd(),
-    stdout=open(os.devnull, 'w'),
-    stderr=open(os.devnull, 'w')
+    stdout=nothing,
+    stderr=nothing
 )
 
 for trial in range(100):
