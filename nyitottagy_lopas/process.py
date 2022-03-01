@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
         dist, ind = tree.query(input, k = 100)
 
-        results_index = [min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()]) for d_vec, i_vec in zip(dist, ind)]
+        results_index = [ind[i][np.where(dist[i] == min(dist[i]))][0] for i in range(len(dist))]
         results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
         Path("output.json").write_text(json.dumps(results))
         
