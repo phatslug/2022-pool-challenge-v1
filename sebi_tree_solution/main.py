@@ -4,7 +4,7 @@ import json
 
 input_locations = json.loads(Path("input.json").read_text())
 
-results = requests.post("http://127.0.0.1:8000/", json=input_locations).json()
+results = requests.post("http://127.0.0.1:8080/", json=input_locations).json()
 
 if __name__ == "__main__":
     Path("output.json").write_text(json.dumps(results))
