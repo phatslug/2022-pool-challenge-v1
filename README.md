@@ -12,6 +12,7 @@
 | smk_0301_1330                            | [v1](../../commit/0e79b0d)  | 0.5666 | 0.7885 |   1.0092 |  0.9555 |    3.971  |       7.2907 |
 | nyitottagy_lopas                         | [v4](../../commit/2fee205)  | 0.7553 | 0.8952 |   0.8506 |  0.9099 |    4.0201 |       7.4312 |
 | sebi_mark_kofi_tree_solution_isbettter   | [v1](../../commit/a6bdaac)  | 0.9916 | 0.99   |   1.0083 |  0.9256 |    3.7755 |       7.6911 |
+| sara_peti_solution                       | [v5](../../commit/0613fdd)  | 0.4778 | 0.7097 |   1.1347 |  1.8732 |   93.0561 |      97.2516 |
 
 ## Near Misses
 
@@ -37,6 +38,7 @@
 | nyitottagy_lopas      | [v1](../../commit/0b6a733)  |   0.946693 |   2.78325  |   0.807631 |   1.02     |       nan |
 | nyitottagy_lopas      | [v2](../../commit/3b87491)  |   1.11586  |   1.02152  |   0.850581 |   0.790691 |       nan |
 | nyitottagy_lopas      | [v3](../../commit/93e223d)  |   1.20063  |   0.822439 |   0.958979 |   0.985607 |       nan |
+| nyitottagy_lopas      | [v6](../../commit/9fd0267)  |   0.977185 | nan        |   0.69926  |   0.97915  |       nan |
 | sara_peti_solution    | [v1](../../commit/9ce26a5)  |  15.3465   | nan        |   0.972676 |  15.869    |       nan |
 | sara_peti_solution    | [v2](../../commit/93d98de)  |   0.822125 | nan        |   0.437308 |   2.76557  |       nan |
 | sara_peti_solution    | [v3](../../commit/fce0f39)  |   0.939527 | nan        |   0.501643 |   2.34768  |       nan |
@@ -58,6 +60,7 @@
 | sebi_tree_solution    | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 |       nan |
 | smk_0301_1313         | [v1](../../commit/47857a0)  |   0.802152 | nan        |   0.895867 |   1.0126   |       nan |
 | smk_0301_1420         | [v1](../../commit/a9a545f)  |   1.04557  | nan        |   0.518456 |   1.06082  |       nan |
+| sunyoghobot_KD_k100   | [v1](../../commit/7c80203)  |  19.3522   |  21.6476   |   1.7659   |   1.9824   |       nan |
 | sunyoghobot_ball_k100 | [v1](../../commit/b958877)  |  19.5609   |  18.3818   |   1.73461  |   1.99014  |       nan |
 | szunyi_hobi_ball_tree | [v1](../../commit/aad14c8)  |  17.6761   | nan        |   1.22951  |   1.83259  |       nan |
 | traditional_virgo     | [v1](../../commit/5b6ba66)  |   6.77554  | 162.99     |   0.511317 |   7.1553   |       nan |
