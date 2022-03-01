@@ -1,5 +1,0 @@
-pandas
-sklearn
-fastapi
-uvicorn
-requests
