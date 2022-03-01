@@ -21,8 +21,9 @@ result_data = (
 
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
-kdtree = KDTree(result_data.loc[:, pos_cols].to_numpy(), leaf_size=1)
+kdtree = KDTree(result_data.loc[:, pos_cols].to_numpy(), leaf_size=1, metric = "euclidean")
 
+result_data.drop(columns = ['index', 'keycode', 'entity_id', *pos_cols], inplace=True)
 
 class Item(BaseModel):
     x_position: float
