@@ -78,3 +78,4 @@
 | traditional_virgo   | [v6](../../commit/eae156a)  | nan        | 142.927    | nan        | nan        | nan       |
 | virgopowah          | [v1](../../commit/2dbc7e7)  |   0.703202 | nan        |   0.794111 |   0.628813 | nan       |
 | virgopowah          | [v2](../../commit/4d03f1c)  |   0.851012 | nan        |   0.643208 |   0.733836 | nan       |
+| virgopowah          | [v3](../../commit/04cd313)  |   0.641965 | nan        |   0.661314 |   0.800964 | nan       |
