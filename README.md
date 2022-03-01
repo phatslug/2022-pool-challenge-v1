@@ -29,6 +29,8 @@
 | nyitottagy          | [v8](../../commit/292e28f)  | nan        |   2.65517  |   0.455418 |   0.506347 | nan       |
 | nyitottagy          | [v9](../../commit/bb26b41)  |   0.636268 | nan        | nan        | nan        | nan       |
 | nyitottagy_lopas    | [v1](../../commit/0b6a733)  |   0.946693 |   2.78325  |   0.807631 |   1.02     | nan       |
+| sara_peti_solution  | [v1](../../commit/9ce26a5)  |  13.6942   | nan        |   0.749142 |  15.8852   | nan       |
+| sara_peti_solution  | [v2](../../commit/7b58782)  | nan        | nan        |   0.972676 | nan        | nan       |
 | sebi_basic_solution | [v1](../../commit/eaca833)  |  24.5192   | nan        |   1.0919   |  41.5967   | nan       |
 | sebi_basic_solution | [v2](../../commit/3371540)  |  11.9847   | 630.412    |   0.750844 |  27.2496   | nan       |
 | sebi_basic_solution | [v3](../../commit/fe517a0)  |   2.38947  |  26.3629   |   1.60008  |   3.56721  | nan       |
@@ -54,5 +56,6 @@
 | traditional_virgo   | [v2](../../commit/f13d3e5)  | nan        | nan        |   0.511317 | nan        | nan       |
 | traditional_virgo   | [v3](../../commit/dbdd9ce)  | nan        | 162.99     | nan        | nan        | nan       |
 | traditional_virgo   | [v4](../../commit/5b6ba66)  |   6.77554  | nan        | nan        |   7.1553   | nan       |
+| traditional_virgo   | [v4](../../commit/b932659)  | nan        | nan        |   0.48392  | nan        | nan       |
 | virgopowah          | [v1](../../commit/2dbc7e7)  |   0.703202 | nan        |   0.794111 |   0.628813 | nan       |
 | virgopowah          | [v2](../../commit/4d03f1c)  |   0.851012 | nan        |   0.643208 |   0.733836 | nan       |
