@@ -7,8 +7,8 @@ import time
 nothing = open(os.devnull, 'w')
 proc = subprocess.Popen(
     ["python", "fastapi_app.py"],
-    stdout=nothing,
-    stderr=nothing
+    # stdout=nothing,
+    # stderr=nothing
 )
 
 for trial in range(10):
