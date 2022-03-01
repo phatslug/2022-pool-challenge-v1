@@ -12,7 +12,7 @@ data = data.loc[data["entity_id"] == 0].drop_duplicates(["msec","trial","subject
 data = data.loc[:,cols_1]
 
 for i in ["x_position", "y_position","z_position"]:
-    data[i] = data[i].astype(np.float32)
+    data[i] = data[i].astype(np.float64)
 
 data["msec"] = data["msec"].astype(np.int32)
 data["trial"] = data["trial"].astype(np.int8)
