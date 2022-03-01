@@ -12,6 +12,7 @@
 | smk_0301_1330                            | [v1](../../commit/0e79b0d)  | 0.5666 | 0.7885 |   1.0092 |  0.9555 |    3.971  |       7.2907 |
 | nyitottagy_lopas                         | [v4](../../commit/2fee205)  | 0.7553 | 0.8952 |   0.8506 |  0.9099 |    4.0201 |       7.4312 |
 | sebi_mark_kofi_tree_solution_isbettter   | [v1](../../commit/a6bdaac)  | 0.9916 | 0.99   |   1.0083 |  0.9256 |    3.7755 |       7.6911 |
+| sara_peti_solution                       | [v5](../../commit/0613fdd)  | 0.4778 | 0.7097 |   1.1347 |  1.8732 |   93.0561 |      97.2516 |
 
 ## Near Misses
 
