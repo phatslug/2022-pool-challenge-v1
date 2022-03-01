@@ -17,6 +17,7 @@
 | lili_basic_solution | [v2](../../commit/22adf02)  | 340.761    | nan        |  10.7591   | 729.522    | nan       |
 | lili_lessbasic      | [v1](../../commit/be983ae)  |   7.80133  | 346.656    |   0.567538 |  15.4641   | nan       |
 | lili_lessbasic      | [v2](../../commit/dbd5cee)  |   8.83185  | 373.891    |   0.601737 |  18.5616   | nan       |
+| lili_treeball       | [v1](../../commit/926c62b)  |   6.76831  | 315.664    |   0.5484   |  17.0279   | nan       |
 | nyitottagy          | [v10](../../commit/71f3fa1) |   0.811168 |   2.79286  |   0.446137 |   0.444939 | nan       |
 | nyitottagy          | [v11](../../commit/2d97273) |   0.788811 |   2.40572  |   0.538201 |   0.51477  | nan       |
 | nyitottagy          | [v12](../../commit/65d203d) |   0.894131 |   1.87265  |   0.490864 |   0.537133 | nan       |
@@ -24,6 +25,7 @@
 | nyitottagy          | [v14](../../commit/94bbeed) | nan        | nan        |   0.395857 | nan        | nan       |
 | nyitottagy          | [v15](../../commit/a9a545f) | nan        |   5.88846  | nan        | nan        | nan       |
 | nyitottagy          | [v16](../../commit/92dfadb) |   0.827438 | nan        | nan        | nan        | nan       |
+| nyitottagy          | [v17](../../commit/365bf3c) |   0.776554 |   1.93238  |   0.468453 |   0.500131 | nan       |
 | nyitottagy          | [v1](../../commit/265c45e)  |   0.676376 |   2.67771  |   0.478823 |   0.515898 | nan       |
 | nyitottagy          | [v1](../../commit/5b6ba66)  | nan        |   2.60356  |   0.487263 | nan        | nan       |
 | nyitottagy          | [v1](../../commit/a9a545f)  | nan        |   5.88846  | nan        | nan        | nan       |
@@ -78,3 +80,5 @@
 | traditional_virgo   | [v6](../../commit/eae156a)  | nan        | 142.927    | nan        | nan        | nan       |
 | virgopowah          | [v1](../../commit/2dbc7e7)  |   0.703202 | nan        |   0.794111 |   0.628813 | nan       |
 | virgopowah          | [v2](../../commit/4d03f1c)  |   0.851012 | nan        |   0.643208 |   0.733836 | nan       |
+| virgopowah          | [v3](../../commit/04cd313)  |   0.641965 | nan        |   0.661314 |   0.800964 | nan       |
+| virgopowah          | [v4](../../commit/e317489)  |   0.703353 | nan        |   0.659514 |   0.718414 | nan       |
