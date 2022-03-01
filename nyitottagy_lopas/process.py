@@ -25,8 +25,15 @@ if __name__ == "__main__":
 
         dist, ind = tree.query(input, k = 100)
 
-        results_index = [ind[i][np.where(dist[i] == min(dist[i]))][0] for i in range(len(dist))]
-        results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
+        result_index = []
+        for i in range(len(dist)):
+            for d in range(len(dist[i])):
+                d = dist[i][d]
+                min_dest = min(dist[i])
+                if d == min_dest:
+                    index = np.where(dist[i] == min(dist[i]))[0]
+                    result_index.append(ind[i][index][0])
+        results = data.iloc[result_index, :][["msec", "subject", "trial"]].to_dict("records")
         Path("output.json").write_text(json.dumps(results))
         
     else:
