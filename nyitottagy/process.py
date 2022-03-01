@@ -10,7 +10,7 @@ if __name__ == "__main__":
     def compacting(df, input_array):
         index = []
         for i in input_array:
-            d = scipy.spatial.distance.cdist(list(df.values), i).astype(np.float32)
+            d = scipy.spatial.distance.cdist(list(df.values), i)
             index += ([d.T[i].argmin() for i in range(len(d.T))])
         return index
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     input_locations = json.loads(Path("input.json").read_text())
     #cut input into 4
-    input = np.array([list(i.values()) for i in input_locations])
+    input = np.array([list(i.values()) for i in input_locations]).astype(np.float32)
     if len(input_locations) == 5000:
         input = np.array_split(input, 4) #nézzük meg nyolccal is, és float64-ben
         indexes = compacting(df, input)
