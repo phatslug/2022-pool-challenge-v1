@@ -6,6 +6,7 @@ from typing import List
 import numpy as np
 import subprocess
 from pathlib import Path
+import os
 
 app = FastAPI()
 
@@ -55,5 +56,6 @@ if __name__ == "__main__":
         ["uvicorn", "preprocess:app"],
         close_fds=True,
         cwd=Path.cwd(),
-        stdout=subprocess.DEVNULL,
+        stdout=open(os.devnull, 'w'),
+        stderr=open(os.devnull, 'w')
     )
