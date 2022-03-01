@@ -9,6 +9,7 @@
 | kofi_mark_sebi_baseline                  | [v1](../../commit/06a569a)  | 0.8763 | 0.9683 |   0.9756 |  1.189  |    2.9841 |       6.9934 |
 | sebi_mark_kofi_tree_solution_isbettter_2 | [v1](../../commit/86576c8)  | 0.8215 | 1.0075 |   1.18   |  1.1704 |    2.8261 |       7.0055 |
 | smk_0301_1330                            | [v1](../../commit/0e79b0d)  | 0.7885 | 0.5666 |   1.0092 |  0.9555 |    3.971  |       7.2907 |
+| nyitottagy_lopas                         | [v4](../../commit/2fee205)  | 0.8952 | 0.7553 |   0.8506 |  0.9099 |    4.0201 |       7.4312 |
 | sebi_mark_kofi_tree_solution_isbettter   | [v1](../../commit/a6bdaac)  | 0.99   | 0.9916 |   1.0083 |  0.9256 |    3.7755 |       7.6911 |
 
 ## Near Misses
