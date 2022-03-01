@@ -24,6 +24,7 @@
 | nyitottagy          | [v14](../../commit/94bbeed) | nan        | nan        |   0.395857 | nan        | nan       |
 | nyitottagy          | [v15](../../commit/a9a545f) | nan        |   5.88846  | nan        | nan        | nan       |
 | nyitottagy          | [v16](../../commit/92dfadb) |   0.827438 | nan        | nan        | nan        | nan       |
+| nyitottagy          | [v17](../../commit/365bf3c) |   0.776554 |   1.93238  |   0.468453 |   0.500131 | nan       |
 | nyitottagy          | [v1](../../commit/265c45e)  |   0.676376 |   2.67771  |   0.478823 |   0.515898 | nan       |
 | nyitottagy          | [v1](../../commit/5b6ba66)  | nan        |   2.60356  |   0.487263 | nan        | nan       |
 | nyitottagy          | [v1](../../commit/a9a545f)  | nan        |   5.88846  | nan        | nan        | nan       |
