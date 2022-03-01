@@ -52,4 +52,4 @@ def szar():
     return 'Élek'
 
 if __name__ == "__main__":
-    uvicorn.run("fastapi_app:app", port = 8081, proxy_headers = True, debug = True)
+    uvicorn.run("fastapi_app:app", port = 8080, proxy_headers = True, debug = True)
