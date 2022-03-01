@@ -68,4 +68,4 @@ def kill_proc():
     os.kill(int(Path('process_data.txt').read_text()), signal.SIGTERM) #or signal.SIGKILL 
 
 if __name__ == "__main__":
-    uvicorn.run("fastapi_app:app", port = 8099, proxy_headers = True, debug = True)
+    uvicorn.run("fastapi_app:app", port = 8080, proxy_headers = True, debug = True)
