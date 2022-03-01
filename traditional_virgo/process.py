@@ -20,4 +20,5 @@ if __name__ == "__main__":
     distance = [get_distance_index_t(input[i], dict_df) for i in range(len(input))]
 
     results = data.iloc[distance,[0,-2,-1]].to_dict("records")
+    
     Path("output.json").write_text(json.dumps(results))
