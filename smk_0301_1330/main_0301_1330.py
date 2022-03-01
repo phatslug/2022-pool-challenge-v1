@@ -49,28 +49,3 @@ else:
 
 
 
-
-
-
-    for i in ["x_position", "y_position","z_position"]:
-        data[i] = data[i].astype(np.float32)
-    for i in ["msec", "trial"]:
-        data[i] = data[i].astype(np.int16)
-
-    data["msec"] = data["msec"].astype(np.int32)
-    data["trial"] = data["trial"].astype(np.int8)
-    data["subject"] = data["subject"].astype("category")
-
-    
-
-
-
-
-    results = data.iloc[results_index, :][["msec", "subject", "trial"]].to_dict("records")
-    Path("output.json").write_text(json.dumps(results))
-    
-
-
-
-
-
