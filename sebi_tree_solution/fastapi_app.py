@@ -47,6 +47,9 @@ def get_index(input_json: ItemList):
     ]
     return get_entity(results_index)
 
+@app.get('/szarosapi')
+def szar():
+    return 'Élek'
 
 if __name__ == "__main__":
     uvicorn.run("fastapi_app:app")
