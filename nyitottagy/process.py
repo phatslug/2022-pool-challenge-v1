@@ -19,9 +19,9 @@ if __name__ == "__main__":
 
     input_locations = json.loads(Path("input.json").read_text())
     #cut input into 4
-    input = np.array([list(i.values()) for i in input_locations]).astype(np.float32)
+    input = np.array([list(i.values()) for i in input_locations])
     if len(input_locations) == 5000:
-        input = np.array_split(input, 4) #nézzük meg nyolccal is, és float64-ben
+        input = np.array_split(input, 8) #nézzük meg nyolccal is, és float64-ben
         indexes = compacting(df, input)
     else:
         d = scipy.spatial.distance.cdist(list(df.values), input) #nézzük meg nyolccal is, float64-ben
