@@ -20,7 +20,7 @@ if n > 10:
     with open("kdtree.pickle", "rb") as file:
         tree = pickle.load(file)
 
-    dist, ind = tree.query(input_locations, k=200)
+    dist, ind = tree.query(input_locations, k=1000)
 
     results_index = [
         min([i for d, i in zip(d_vec, i_vec) if d == d_vec.min()])
