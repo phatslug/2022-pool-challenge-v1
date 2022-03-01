@@ -39,6 +39,7 @@
 | nyitottagy_lopas      | [v2](../../commit/3b87491)  |   1.11586  |   1.02152  |   0.850581 |   0.790691 |       nan |
 | nyitottagy_lopas      | [v3](../../commit/93e223d)  |   1.20063  |   0.822439 |   0.958979 |   0.985607 |       nan |
 | nyitottagy_lopas      | [v6](../../commit/9fd0267)  |   0.977185 | nan        |   0.69926  |   0.97915  |       nan |
+| nyitottagy_lopas      | [v7](../../commit/0d8f2d5)  |   1.15644  | nan        |   0.67975  |   0.801805 |       nan |
 | sara_pet_2            | [v1](../../commit/ed35859)  |   0.587589 |   2.15965  |   0.510145 |   1.74394  |       nan |
 | sara_peti_solution    | [v1](../../commit/9ce26a5)  |  15.3465   | nan        |   0.972676 |  15.869    |       nan |
 | sara_peti_solution    | [v2](../../commit/93d98de)  |   0.822125 | nan        |   0.437308 |   2.76557  |       nan |
