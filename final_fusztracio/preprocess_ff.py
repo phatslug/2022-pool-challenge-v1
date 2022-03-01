@@ -20,4 +20,4 @@ tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=1)
 data_subset.to_parquet("data_subset.parquet")
 
 with open("kdtree.pickle", "wb") as file:
-        pickle.dump(tree, file)
+    pickle.dump(tree, file)
