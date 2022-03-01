@@ -13,7 +13,7 @@ pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
 tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=38)
 
-data_subset.loc[:,["msec","x__position", "y__position", "z__position" "subject", "trial"]].to_parquet("data_subset.parquet")
+data_subset.loc[:,["msec","x__position", "y__position", "z__position", "subject", "trial"]].to_parquet("data_subset.parquet")
 
 with open("kdtree.pickle", "wb") as file:
     pickle.dump(tree, file)
