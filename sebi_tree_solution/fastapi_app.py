@@ -46,7 +46,7 @@ def read_input() -> dict:
 def write_results(results):
     Path("output.json").write_text(json.dumps(results))
 
-@app.get("/")
+@app.get("/megoldas")
 def get_index():
     dist, ind = kdtree.query(process_input(read_input()), k=10)
     results_index = [
