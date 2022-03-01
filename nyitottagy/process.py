@@ -15,7 +15,7 @@ if __name__ == "__main__":
         return index
 
     data = pd.read_pickle("data.pkl")
-    df = data.reset_index().loc[:,["x_position","y_position","z_position"]]
+    df = data.loc[:,["x_position","y_position","z_position"]]
 
     input_locations = json.loads(Path("input.json").read_text())
     #cut input into 4
