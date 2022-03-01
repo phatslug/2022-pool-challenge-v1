@@ -19,10 +19,14 @@
 | nyitottagy          | [v1](../../commit/265c45e)  |   0.676376 |   2.67771  |   0.478823 |   0.515898 |       nan |
 | nyitottagy          | [v1](../../commit/5b6ba66)  | nan        |   2.60356  |   0.487263 | nan        |       nan |
 | nyitottagy          | [v2](../../commit/788323f)  |   0.667397 | nan        |   0.379194 |   0.452332 |       nan |
+| nyitottagy          | [v3](../../commit/292e28f)  | nan        |   2.65517  |   0.455418 |   0.506347 |       nan |
 | nyitottagy          | [v3](../../commit/c8ad45c)  |   0.603791 |   2.36064  |   0.519632 |   0.448809 |       nan |
 | nyitottagy          | [v4](../../commit/5b6ba66)  | nan        |   2.60356  |   0.487263 | nan        |       nan |
 | nyitottagy          | [v5](../../commit/191e932)  | nan        | nan        | nan        |   0.497181 |       nan |
 | nyitottagy          | [v6](../../commit/70d4d85)  |   0.719632 | nan        | nan        | nan        |       nan |
+| nyitottagy          | [v7](../../commit/9104e6b)  |   0.667066 |   2.87492  |   0.522681 |   0.652182 |       nan |
+| nyitottagy          | [v8](../../commit/292e28f)  | nan        |   2.65517  |   0.455418 |   0.506347 |       nan |
+| nyitottagy          | [v9](../../commit/bb26b41)  |   0.636268 | nan        | nan        | nan        |       nan |
 | nyitottagy_lopas    | [v1](../../commit/0b6a733)  |   0.946693 |   2.78325  |   0.807631 |   1.02     |       nan |
 | sebi_basic_solution | [v1](../../commit/eaca833)  |  24.5192   | nan        |   1.0919   |  41.5967   |       nan |
 | sebi_basic_solution | [v2](../../commit/3371540)  |  11.9847   | 630.412    |   0.750844 |  27.2496   |       nan |
@@ -39,6 +43,11 @@
 | sebi_tree_solution  | [v7](../../commit/1315fff)  |   1.10031  |   1.08386  |   0.784823 |   0.815491 |       nan |
 | sebi_tree_solution  | [v8](../../commit/d1d2cbe)  |   1.13523  |   1.03075  |   0.784795 |   1.13577  |       nan |
 | sebi_tree_solution  | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 |       nan |
+| smk_whenisgood      | [v1](../../commit/1791b69)  | nan        | nan        | nan        |   1.08504  |       nan |
+| smk_whenisgood      | [v2](../../commit/cdeae11)  | nan        | nan        |   0.989448 | nan        |       nan |
+| smk_whenisgood      | [v3](../../commit/292e28f)  |   0.891287 | nan        | nan        | nan        |       nan |
+| smk_whenisgood      | [v4](../../commit/12cd623)  | nan        |   1.09623  | nan        | nan        |       nan |
+| smk_whenisgood      | [v8](../../commit/292e28f)  |   0.891287 | nan        | nan        | nan        |       nan |
 | traditional_virgo   | [v1](../../commit/5b6ba66)  |   6.77554  | nan        | nan        |   7.1553   |       nan |
 | traditional_virgo   | [v2](../../commit/f13d3e5)  | nan        | nan        |   0.511317 | nan        |       nan |
 | traditional_virgo   | [v3](../../commit/dbdd9ce)  | nan        | 162.99     | nan        | nan        |       nan |
