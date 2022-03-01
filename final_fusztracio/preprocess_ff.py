@@ -12,6 +12,10 @@ data_subset = (
 pos_cols = [f"{ax}_position" for ax in ["x", "y", "z"]]
 
 tree = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=1)
+#tree_1 = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=16) # if query == 10
+#tree_2 = KDTree(data_subset.loc[:, pos_cols].to_numpy(), leaf_size=38) # if query == 500 or higher
+
+#data_subset = data_subset.loc[:,["msec", 'x_position', 'y_position', 'z_position', "subject", "trial"]]
 
 data_subset.to_parquet("data_subset.parquet")
 
