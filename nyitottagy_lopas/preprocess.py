@@ -20,7 +20,7 @@ data["subject"] = data["subject"].astype("category")
 
 data.to_pickle("data.pkl")
 
-tree = KDTree(data.loc[:, ["msec", "trial","subject"]].to_numpy(), leaf_size=1)
+tree = KDTree(data.loc[:, cols].to_numpy(), leaf_size=1)
 
 with open("kdtree.pickle", "wb") as file:
         pickle.dump(tree, file)
