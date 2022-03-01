@@ -58,6 +58,7 @@
 | sebi_tree_solution    | [v9](../../commit/4a92f55)  |   1.02444  | nan        |   0.912425 |   0.836722 |       nan |
 | smk_0301_1313         | [v1](../../commit/47857a0)  |   0.802152 | nan        |   0.895867 |   1.0126   |       nan |
 | smk_0301_1420         | [v1](../../commit/a9a545f)  |   1.04557  | nan        |   0.518456 |   1.06082  |       nan |
+| sunyoghobot_KD_k100   | [v1](../../commit/7c80203)  |  19.3522   |  21.6476   |   1.7659   |   1.9824   |       nan |
 | sunyoghobot_ball_k100 | [v1](../../commit/b958877)  |  19.5609   |  18.3818   |   1.73461  |   1.99014  |       nan |
 | szunyi_hobi_ball_tree | [v1](../../commit/aad14c8)  |  17.6761   | nan        |   1.22951  |   1.83259  |       nan |
 | traditional_virgo     | [v1](../../commit/5b6ba66)  |   6.77554  | 162.99     |   0.511317 |   7.1553   |       nan |
