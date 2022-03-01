@@ -13,6 +13,9 @@
 
 | name                | v                           |       L-10 |      L-500 |       S-10 |     S-1000 |   XL-5000 |
 |:--------------------|:----------------------------|-----------:|-----------:|-----------:|-----------:|----------:|
+| final_fusztracio    | [v1](../../commit/0a83a7f)  | nan        |   0.943892 |   0.579555 |   1.4439   | nan       |
+| final_fusztracio    | [v2](../../commit/b0cfedc)  |   0.597709 | nan        | nan        | nan        | nan       |
+| final_fusztracio    | [v6](../../commit/0a83a7f)  | nan        |   0.943892 |   0.579555 |   1.4439   | nan       |
 | lili_basic_solution | [v1](../../commit/07a3e46)  | 296.354    | nan        |   9.11836  | 717.327    | nan       |
 | lili_basic_solution | [v2](../../commit/22adf02)  | 340.761    | nan        |  10.7591   | 729.522    | nan       |
 | lili_lessbasic      | [v1](../../commit/be983ae)  |   7.80133  | 346.656    |   0.567538 |  15.4641   | nan       |
@@ -39,11 +42,17 @@
 | nyitottagy          | [v8](../../commit/292e28f)  | nan        |   2.65517  |   0.455418 |   0.506347 | nan       |
 | nyitottagy          | [v9](../../commit/bb26b41)  |   0.636268 | nan        | nan        | nan        | nan       |
 | nyitottagy_lopas    | [v1](../../commit/0b6a733)  |   0.946693 |   2.78325  |   0.807631 |   1.02     | nan       |
+| sara_peti_solution  | [v1](../../commit/0a83a7f)  |   0.822125 | nan        | nan        | nan        | nan       |
 | sara_peti_solution  | [v1](../../commit/9ce26a5)  |  13.6942   | nan        |   0.749142 |  15.8852   | nan       |
 | sara_peti_solution  | [v2](../../commit/7b58782)  | nan        | nan        |   0.972676 | nan        | nan       |
 | sara_peti_solution  | [v3](../../commit/0fdef72)  | nan        | nan        | nan        |  15.869    | nan       |
 | sara_peti_solution  | [v4](../../commit/fe495da)  |  15.3465   | nan        | nan        | nan        | nan       |
 | sara_peti_solution  | [v5](../../commit/7b58782)  | nan        | nan        |   0.972676 | nan        | nan       |
+| sara_peti_solution  | [v5](../../commit/93d98de)  |   0.911572 | nan        |   0.462245 |   2.30825  | nan       |
+| sara_peti_solution  | [v6](../../commit/0a83a7f)  |   0.822125 | nan        | nan        | nan        | nan       |
+| sara_peti_solution  | [v7](../../commit/ae1246d)  | nan        | nan        |   0.437308 | nan        | nan       |
+| sara_peti_solution  | [v8](../../commit/76cb209)  | nan        | nan        | nan        |   2.76557  | nan       |
+| sara_peti_solution  | [v9](../../commit/3fb8d4d)  | nan        | nan        | nan        | nan        | nan       |
 | sebi_basic_solution | [v1](../../commit/eaca833)  |  24.5192   | nan        |   1.0919   |  41.5967   | nan       |
 | sebi_basic_solution | [v2](../../commit/3371540)  |  11.9847   | 630.412    |   0.750844 |  27.2496   | nan       |
 | sebi_basic_solution | [v3](../../commit/fe517a0)  |   2.38947  |  26.3629   |   1.60008  |   3.56721  | nan       |
