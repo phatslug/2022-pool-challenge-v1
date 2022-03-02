@@ -23,6 +23,7 @@
 | final_fusztracio      | [v3](../../commit/2aaed3f)  |   0.601075 |   1.19214  |   0.449466 |   1.17816  |       nan |
 | final_fusztracio      | [v4](../../commit/7648060)  |   0.671524 |   1.3923   |   0.516098 |   1.59342  |       nan |
 | hobot_sara_balltree   | [v1](../../commit/fce0f39)  |  18.9306   | nan        |   1.56295  |   1.62359  |       nan |
+| kofi_mark_sebi_final  | [v1](../../commit/0c6bff5)  |   1.31659  |   0.48511  |   0.652881 |   1.3996   |       nan |
 | lili_basic_solution   | [v1](../../commit/07a3e46)  | 340.761    | nan        |  10.7591   | 729.522    |       nan |
 | lili_lessbasic        | [v1](../../commit/be983ae)  |   8.83185  | 373.891    |   0.601737 |  18.5616   |       nan |
 | lili_treeball         | [v1](../../commit/926c62b)  |   6.76831  | 315.664    |   0.5484   |  17.0279   |       nan |
