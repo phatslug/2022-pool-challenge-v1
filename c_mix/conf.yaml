@@ -1,0 +1,4 @@
+image-base: endremborza/course:clang
+setup-command: ./setup.sh
+etl-command: ./prep.sh
+process-command: ./proc.out
